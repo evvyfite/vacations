@@ -1,18 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <project xmlns="https://www.dita-ot.org/project">
-    <context id="zeKzTiMQMqblIli" name="beyonce">
-        <input href="../vacation-packages.ditamap"/>
-        <profile>
-            <ditaval href="../beyonce.ditaval"/>
-        </profile>
-    </context>
     <publication id="webhelp" transtype="webhelp-responsive"/>
-    <deliverable id="d-luxury_website-1728576608423" name="luxury website">
-        <context idref="zeKzTiMQMqblIli"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp">
-            <param href="cf://templates/Astatine" name="webhelp.publishing.template"/>
-            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
-        </publication>
-    </deliverable>
 </project>
